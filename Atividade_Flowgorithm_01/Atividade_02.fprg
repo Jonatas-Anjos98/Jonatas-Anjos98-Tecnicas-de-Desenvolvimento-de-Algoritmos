@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade_02"/>
+        <attribute name="authors" value="jonat"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-03 08:49:26 "/>
+        <attribute name="created" value="am9uYXQ7Sk9OQVRBUy1KVU5JT1I7MjAyNS0wOS0wMzsiMDg6NDI6MjUgIjsyNzgx"/>
+        <attribute name="edited" value="am9uYXQ7Sk9OQVRBUy1KVU5JT1I7MjAyNS0wOS0wMzsiMDg6NDk6MjYgIjsxOzI4OTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num01" type="Integer" array="False" size=""/>
+            <output expression="&quot;Informe um n&#250;mero&quot;" newline="True"/>
+            <input variable="num01"/>
+            <if expression="num01 %2 ==0">
+                <then>
+                    <output expression="&quot;O n&#250;mero informado e par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero informado e impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
